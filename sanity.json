@@ -15,7 +15,6 @@
     "@sanity/desk-tool",
     "@sanity/code-input",
     "markdown",
-    "@sanity/production-preview",
     "twitter-proxy",
     "media-library"
   ],
@@ -34,10 +33,6 @@
     {
       "name": "part:@sanity/desk-tool/structure",
       "path": "./src/desk-structure.js"
-    },
-    {
-      "implements": "part:@sanity/production-preview/resolve-production-url",
-      "path": "./resolveProductionUrl.js"
     }
   ]
 }
